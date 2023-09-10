@@ -9,12 +9,12 @@ namespace SingletonDesignPattern
 {
     /*
     *  Sealed ensures the class being inherited and
-    *  object instantiation is restricted in the derived class
+    *  Object instantiation is restricted in the derived class
     */
     public sealed class Singleton
     {
         /*
-         * Private property initilized with null
+         * Private property initialized with null
          * ensures that only one instance of the object is created
          * based on the null condition
          */
@@ -23,25 +23,19 @@ namespace SingletonDesignPattern
 
         private static readonly object obj = new object();
         /*
-         * public property is used to return only one instance of the class
+         * Public property is used to return only one instance of the class
          * leveraging on the private property
          */
         public static Singleton GetInstance
         {
             get
             {
-                // loading initialization
-                //lock (obj)
-                //{
-                //    if (instance == null)
-                //        instance = new Singleton();
-                //}
                 return instance.Value;
             }
         }
         /*
-         * Private constructor ensures that object is not
-         * instantiated other than with in the class itself
+         * Private constructor ensures that the object is not
+         * instantiated other than within the class itself
          */
         private Singleton()
         {
