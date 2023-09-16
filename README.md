@@ -1,4 +1,4 @@
-# SingletonDesignPattern
+# Singleton Design Pattern => Creational
 
 𝐒𝐢𝐧𝐠𝐥𝐞𝐭𝐨𝐧 
 The Singleton pattern is one of the simplest and most popular 𝐜𝐫𝐞𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐝𝐞𝐬𝐢𝐠𝐧 𝐩𝐚𝐭𝐭𝐞𝐫𝐧 defined by the Gang of Four (𝐆𝐨𝐅). This pattern ensures that a class has only one instance and provides a global point of access to that instance. 
